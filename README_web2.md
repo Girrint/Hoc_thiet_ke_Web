@@ -34,4 +34,12 @@ Giao diện của trang web, hay của ứng dụng web là phần nội dung đ
 <b>Để có trang web trên trình duyệt:</b><br>
 - Người dụng nhập địa chỉ trang web vào thanh địa chỉ.<br>
 - Trình duyệt dựa vào URL, kết nối web server, gửi yêu cầu tới web server.<br>
-- Web server xử lý yêu cầu, 
+- Web server xử lý yêu cầu, gửi trả kết quả về trình duyệt.
+- Quá trình hiển thị trang web của trình duyệt được thực hiện sau khi trình duyệt đã nhận được kết quả trả về của web server.<br>
+![img](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7ieayLvhLUuifl4TtNlXi2czc7dd6FPaJcoL5zfE9Gm8r3MzjH89vIym6TkhfF7wUpPNJnLn2XiT1-qUZ2xXtHkbF_DkVlLKXx3aEo5cJ06aOnt6sAyofGKQDr4Bcfzh80y1bF4s8820/w400-h206/4+qua+trinh+hien+thi+trang+web.jpg)<br>
+<b>Các bước của quá trình hiển thị:</b><br>
+- Phân tích mã HTML để tạo cây DOM (DOM tree).<br>
+- Phân tích mã CSS để tạo CSSOM (CSS Object Model - Mô hình đối tượng CSS).<br>
+- Kết hợp DOM tree và CSSOM để tạo cây kết xuất (Render tree).<br>
+- Dựng khung giao diện (layout) dựa trên Render tree.<br>
+- Hiển thị nội dung lên trình duyệt (painting).<br>
