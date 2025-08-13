@@ -13,11 +13,13 @@ Trình duyệt gồm nhiều thành phần như: User interface, Browser engine,
 - JavaScript Interpreter(JI): phân tích và thực thi mã JavaScript.<br>
 - UI Backend: Thực hiện vẽ các đối tượng cơ bản.<br>
 - Data Presistence: thực hiện các công việc liên quan đến lưu trữ dữ liệu trên đám mây cục bộ.<br>
-### Xử dụng trình duyệt web để duyệt web
+#
+### Sử dụng trình duyệt web để duyệt web
 Trình duyệt gồm hai khu vực:
 - Vùng 1: là giao diện của trình duyệt.
 - Vùng 2: là giao diện của trang web hay ứng dụng web.
   ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKXGZHbx4eyWAAAUpNmxEWZ6gwpBeg3FssuapfCYqGHq4rYVpLWCOV-pRo3pjYuMJXkZwggvT6hbwwugubYj4s4oj5IzSj3gF1_cIJX4lPI2wD2oqwTlAZthHF60JPni_8bpd5-tDeqVY/w400-h230/3+Giao+dien+trinh+duyet.jpg)
+#
 ### Giao diện của trình duyệt
 - Giao diện thường bao gồm: các tab, thanh địa chỉ, các nút điều khiển, menu, thanh trạng thái, thanh cuộn.<br>
 + Người dùng thường có nhu cầu mở nhiều trang web, mỗi trang web sẽ nằm trên một tab.<br>
@@ -26,10 +28,13 @@ Trình duyệt gồm hai khu vực:
 + Nút điều khiển, dùng để tải lại trang web hiện tại (reload), trở về trang mặc định (home page), trở về trang trước (go back), đi tới trang sau (go forward),...<br>
 + Menu: chứa chức năng cho phép người dùng thiết lập chế đô hiển thị, ngôn ngữ, bảo mật, cài thêm chức năng mở rộng, mở bộ công cụ cho lập trình viên,...<br>
 + Thanh cuộn: cho phép cuộn ngang/dọc để xem các phần thông tin chưa hiển thị hết trong khung.<br>
+#
 ### Giao diện trang web
 Giao diện của trang web, hay của ứng dụng web là phần nội dung được trình duyệt lấy từ server về và hiển thị cho người dùng. Nó chính là trang tin, trang thương mại điện tử hoặc các ứng dụng web khác, mà người sở hữu trang web muốn gửi tới người dùng và khách hàng của họ.<br>
+#
 ### Sử dụng trình duyệt trong quá trình tạo ra trang web
 Để tạo ra trang web, lập trình viên thường sử dụng các trình viết mã (text editor, code editor) hoặc môi trường phát triển tích hợp (IDE). Tuy nhiên, trong quá trình tạo ra trang web, lập trình viên cũng có thể kết hợp thêm một số tiện ích của trình duyệt để thiết kế giao diện, kiểm tra và sửa lỗi, xem trước kết quả.<br>
+#
 ### Quá trình hiển thị trang web của trình duyệt
 <b>Để có trang web trên trình duyệt:</b><br>
 - Người dụng nhập địa chỉ trang web vào thanh địa chỉ.<br>
