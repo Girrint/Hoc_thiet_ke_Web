@@ -44,3 +44,32 @@ URI chính xác và tổng quát hơn URL.
 Tuy nhiên, nhiều người vẫn thích sử dụng khái niệm URL hơn. Bạn có thể sử dụng URL và URI thay thế cho nhau.
 
 ### 1.1.2 Giao thức File:
+
+Vì URL là một tham chiếu tới tài nguyên web, trong trường hợp này là tham chiếu tới một trang web. URL cho biết vị trí của trang web trên hệ thống mạng và để lấy được trang web đó thì cần sử dụng giao thức gì. Vậy ở đây, trình duyệt đã không dùng giao thức HTTP, hoặc HTTPS để lấy nội dung trang web mà dùng giao thức File.
+
+Giao thức File có tên đầy đủ là giao thức File URI, được đặc tả trong RFC 1630 và RFC 1738, sử dụng để truy cập và lấy về nội dung của thư mục hoặc tập tin bất kì.
+
+**Cú pháp của giao thức File có dạng:**
+
+file://host/path
+
+**Trong đó:**
+
+- host là tên của máy tính dạng FQDN (tên miền dạng đầy đủ)
+- path là đường dẫn thư mục
+
+Nếu tham số host không được cung cấp, giao thức File sẽ ngầm hiểu là truy cập tại máy tính cục bộ (“localhost”).
+
+### 1.1.3 Siêu liên kết:
+
+Siêu liên kết (hyperlink) hay liên kết (links) là một tham chiếu đến tài liệu, hoặc tài nguyên web, người dùng có thể bấm vào các liên kết này để mở nội dung được liên kết. Một liên kết có thể trỏ đến tài liệu khác hoặc một vị trí cụ thể bên trong tài liệu.
+
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFl4fpzxGgyTD-G08H-LCO-4ihb1aMKhZxu6Q1ur6zBKW4ZbcLRcZ0mkwWpJKejonHETFFCekM1QzmcKehD8JQVyHO6yqRlwHau4xrRDryy0Fv4q1Sw3o0eA_-e3HNDTYBdTNSOisFGeA/w400-h204/Sieu+lien+ket+3.jpg)
+
+### 1.1.4 Siêu văn bản:
+
+Siêu văn bản (hypertext) là văn bản, được hiển thị trên màn hình máy tính hoặc các thiết bị điện tử khác, có chứa tham chiếu (liên kết) tới các văn bản khác.
+
+Với văn bản thông thường, nội dung của văn bản được tổ chức theo kiểu tuần tự, nghĩa là bạn cần đọc theo thứ tự từ trước đến sau. Tuy nhiên, với siêu văn bản, nhờ các siêu liên kết bạn có thể đọc các nội dung không theo trình tự.
+
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8UcR3T8PF-dzAaeyTOtTzT1CTmHfFK9wpXMFnChF-V4Nnqzt-k01xr0ffDzKNu05UPSe0qlOfi_VtoQ4SVkp-vb3esKqwJfW9Bg3ztq79C9o_1EKaMVzdv96_S-Ku_dEkfwEXhGX4FKY/w400-h259/Sieu+van+ban+4.jpg)
