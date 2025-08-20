@@ -45,3 +45,11 @@ Trình duyệt sẽ không hiển thị các từ khóa này ra ngoài giao di�
 <i>Thẻ HTML thường gồm 2 phần:</i><br>
 Phần mở thẻ gọi là thẻ mở (opening tag, start tag).<br>
 Phần đóng thẻ gọi là thẻ đóng (closing tag, end tag).<br>
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg387_FiMuzl_43ZYdvKCcEjstmarc22ifjVBMwmp761lOsO-ESTVu6SKNpjFaTC5zCJPOvaX8xdfdYT-3rC7AWpnfuvWDJ6tYnRbPWkhPmDLjZvuBdmIMj9E8aDRfMyD9mmWxVk1lgYGs/s698/html1.jpg)<br>
+Cũng có thể hiểu nôm na, HTML sẽ sử dụng các thẻ (tag) để “đánh dấu” chỗ này là tiêu đề, chỗ khác là một đoạn văn bản, chỗ này sẽ hiển thị hình ảnh, chỗ khác sẽ hiển thị một video. Đây chính là ý nghĩa của chữ “đánh dấu” (markup) trong khái niệm HTML.<br>
+Dưới đây là cú pháp một phần tử HTML thông thường (gọi là phần tử HTML thông thường vì còn có các phần tử HTML đặc biệt).<br>
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPxwmZ-9lpbVqko8FdwA4w8stYJJKBUCgCqDfGk4Epm5M-YoDVPPn-tzqV6YiOYG95arQDG8EZ0RCKa1_m4Vsqh3lEJ9YyFF99XzqmhssTkXmVgjYA_wTZEWNzdODGT8t4BuEclL_-xOo/w400-h140/html2.jpg)<br>
+Như vậy, một phần tử HTML sẽ bắt đầu là thẻ mở, tới phần nội dung, và cuối cùng là thẻ đóng.<br>
+Thẻ HTML (HTML tag) và phần tử HTML (HTML element) là hai khái niệm khác nhau.<br>
+Tuy nhiên, thẻ HTML là thành phần để tạo ra phần tử HTML.<br>
+![]
