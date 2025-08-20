@@ -1,6 +1,8 @@
-# 1.HTML
+# Front-end 4
 
-## 1.1 Tạo một trang web đơn giản:
+## 1.HTML
+
+### 1.1 Tạo một trang web đơn giản:
 
 **HTML là gì?**
 
@@ -10,7 +12,7 @@ HTML (*HyperText Markup Language*) là ngôn ngữ đánh dấu siêu văn bản
 
 HTML document là tập tin chứa mã HTML, là trang web ở dạng mã nguồn.<br>
 
-### 1.1.1 Trang web tĩnh:
+#### 1.1.1 Trang web tĩnh:
 
 Trang web tĩnh (static web page, flag page, stationary page): 
 là trang web chứa nội dung cố định, 
@@ -24,7 +26,7 @@ Mã nguồn của trang web tĩnh có thể được lưu trong cơ sở dữ li
 thậm chí bao gồm các trang web được tạo ra bằng mẫu có sẵn (template) và được phân phối thông qua một server ứng dụng,
 miễn là các trang kết quả không thể thay đổi.
 
-### 1.1.2 Chuẩn bị nội dung cho trang web:
+#### 1.1.2 Chuẩn bị nội dung cho trang web:
 
 **Những thứ trình duyệt bỏ qua khi hiển thị một văn bản**
 
@@ -57,7 +59,7 @@ Trong thông tin và truyền thông, văn bản là từ, là câu, là đoạn
 
 Những thứ không phải là văn bản bao gồm: các đối tượng đồ họa (graphic), các số (không ở dạng ASCII), và mã chương trình (dạng nhị phân).
 
-### 1.1.3 Cấu trúc cơ bản của một tài liệu HTML
+#### 1.1.3 Cấu trúc cơ bản của một tài liệu HTML
 
 **Phần tử HTML**
 
@@ -107,7 +109,7 @@ Tài liệu (document) là vật mang tin, được hình thành trong quá trì
 
 Các loại tài liệu: văn bản, dự án, bản vẽ thiết kế, bản đồ, công trình nghiên cứu, sổ sách, biểu thống kê; âm bản, dương bản phim, ảnh, vi phim; băng, đĩa ghi âm, ghi hình; tài liệu điện tử; bản thảo tác phẩm văn học, nghệ thuật; sổ công tác, nhật ký, hồi ký, bút tích, tài liệu viết tay; tranh vẽ hoặc in; ấn phẩm và vật mang tin khác.
 
-### 1.1.4 Thêm cấu trúc và ngữ nghĩa cho nội dung:
+#### 1.1.4 Thêm cấu trúc và ngữ nghĩa cho nội dung:
 
 HTML có hai chức năng chính, một là tạo ra bố cục hay cấu trúc (structure) cho trang web, hai là tạo ngữ nghĩa (meaning, semantic) cho nội dung.
 
@@ -125,7 +127,7 @@ Tuy nhiên, sau đó, HTML đã được mở rộng, được bổ sung thêm k
 
 Hiện nay, HTML đang được trả lại đúng vai trò ban đầu của nó, nghĩa là HTML chỉ tập trung vào việc biểu diễn nội dung có cấu trúc và có ngữ nghĩa.
 
-### 1.1.5 Phần tử kiểu block và inline:
+#### 1.1.5 Phần tử kiểu block và inline:
 
 phần tử body sẽ chứa toàn bộ nội dung được hiển thị ra màn hình. Phần tử body sẽ chứa tất cả các phần tử tạo ra nội dung trang web. vậy, phần tử body là phần tử cha, trong nó sẽ có các phần tử con.
 
