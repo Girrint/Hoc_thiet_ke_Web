@@ -1,9 +1,15 @@
 # 1.HTML
+
 ## 1.1 Tạo một trang web đơn giản:
-<b>HTML là gì?</b><br>
-HTML(HyperText Markup Language) là ngôn ngữ đánh dấu siêu văn bản (không phải ngôn ngữ lập trình) dùng để tạo nội dung cho môi trường web.<br>
-<b>Tài liệu HTNL là gì?</b><br>
+
+**HTML là gì?**
+
+HTML (*HyperText Markup Language*) là ngôn ngữ đánh dấu siêu văn bản (không phải ngôn ngữ lập trình) dùng để tạo nội dung cho môi trường web.
+
+**Tài liệu HTML là gì?**
+
 HTML document là tập tin chứa mã HTML, là trang web ở dạng mã nguồn.<br>
+
 ### 1.1.1 Trang web tĩnh:
 Trang web tĩnh (static web page, flag page, stationary page): 
 là trang web chứa nội dung cố định, 
