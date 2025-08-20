@@ -1,4 +1,4 @@
-# Web front-end(2)
+# Front-end 2
 
 ## Trình duyệt web là gì?
 
