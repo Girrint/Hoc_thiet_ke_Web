@@ -70,3 +70,28 @@ mọi thứ rất logic và nhẹ nhàng.
 
 - Học từ các trang dạy làm web tại Facebook/Github/Youtube/Website/Blog/Tik tok hoặc học từ chia sẻ của các anh chị
 trong nghề.
+
+## 1.3 BT
+
+**BT1** 
+
+1. Ngôn ngữ lập trình & công nghệ nền tảng
+
+- HTML – Ngôn ngữ đánh dấu để xây dựng cấu trúc trang web.
+
+- CSS – Ngôn ngữ tạo kiểu, thiết kế giao diện web (kết hợp với Flexbox, Grid).
+
+- JavaScript (JS) – Ngôn ngữ lập trình chính cho web, giúp trang web tương tác, động.
+
+2. Công cụ & kỹ năng Front-end (Giao diện người dùng)
+
+- Responsive Design – Thiết kế web hiển thị tốt trên mọi thiết bị (mobile-first).
+
+- CSS Preprocessors – SASS, LESS để viết CSS dễ bảo trì hơn.
+
+- Frameworks/Libraries – ReactJS, VueJS, Angular (ưu tiên học ReactJS).
+
+- UI Libraries – TailwindCSS, Bootstrap, Material UI.
+
+- Version Control – Git & GitHub/GitLab để quản lý mã nguồn.
+
