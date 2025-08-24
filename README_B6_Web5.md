@@ -103,6 +103,10 @@ Trong cấu trúc của một tài liệu HTML, hàng đầu tiên là khai báo
 HTML phiên bản nào. Dựa vào khai báo này, trình duyệt sẽ sử dụng đặc tả phiên bản HTML tương ứng để biên dịch và 
 hiển thị kết quả.
 
+**Bước 1:** Truy cập trang [validator](https://validator.w3.org/) 
+
+**Bước 2:** Dán địa chỉ này vào rồi chọn check.
+
 **Để làm một trang web đơn giản, cần những gì?**
 
 Để làm một trang web đơn giản cần ba thứ sau: ngôn ngữ viết mã (code), công cụ để viết mã, và công cụ để xem kết quả.
