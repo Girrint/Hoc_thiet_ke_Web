@@ -122,3 +122,9 @@ trình duyệt sau: Chrome, Firefox, Safari, Opera, Microsoft Edge
 Tóm lại, để làm một trang web đơn giản, chỉ cần sử dụng Notepad để viết mã HTML, lưu lại thành một tập tin 
 có phần mở rộng là .html. Sau đó, dùng trình duyệt để mở tập tin, và xem trang web kết quả.
 
+### 1.1.7 BT
+
+**Bài Tập 1** 
+
+[Kiểm tra html](https://girrint.github.io/Hoc_thiet_ke_Web/Kiem_Tra_HTML.html)
+
