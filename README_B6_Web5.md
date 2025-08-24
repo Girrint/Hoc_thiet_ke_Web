@@ -128,7 +128,7 @@ có phần mở rộng là .html. Sau đó, dùng trình duyệt để mở tậ
 
 * [**Hiển thị tiếng Việt**](https://girrint.github.io/Hoc_thiet_ke_Web/Trang_Web_Dau_Tien2.html)
 
-* [Kiểm tra html](https://girrint.github.io/Hoc_thiet_ke_Web/Kiem_Tra_HTML.html)
+* [**Kiểm tra html**](https://girrint.github.io/Hoc_thiet_ke_Web/Kiem_Tra_HTML.html)
 
 **Bài Tập 2**
 
@@ -136,3 +136,32 @@ có phần mở rộng là .html. Sau đó, dùng trình duyệt để mở tậ
 
 **Bài Tập 3**
 
+* [**BT3**](https://girrint.github.io/Hoc_thiet_ke_Web/B6_W5_BT3.html)
+
+**Bài Tập 4**
+
+### 1.1.8 Câu hỏi ôn tập
+
+**C1** Trong UTF-8, UTF là viết tắt của các từ nào?
+
+*Unicode Transformation Format*
+
+**C2** Metadata is "data that provides ________about other data". In other words, it is "data about data".
+
+*information*
+
+**C3** Technically, an ________is the collection of start tag, its attributes, an end tag and everything in between. On the other hand an HTML tag (either opening or closing) is used to mark the start or end of an element.
+
+*HTML element*
+
+**C4** Indicate whether each of these filenames is not an acceptable name for a web document.
+
+*cooking home page.html*
+
+**C5** One of the following markup examples is incorrect. Which one?
+
+*<em>Congratulations!<em>*
+
+**C6** Trang web https://validator.w3.org/ dùng để làm gì?
+
+*Để kiểm tra tính hợp lệ của mã HTML*
