@@ -143,6 +143,8 @@ Một phần tử có kiểu hiển thị là block (block-level) sẽ luôn đ�
 
 Một phần tử có kiểu hiển thị là inline (inline-level) sẽ không yêu cầu một hàng mới khi hiển thị và sẽ chiếm độ rộng vừa đủ để chứa hết phần nội dung của nó.
 
+* [**Trang web đầu tiên**](https://girrint.github.io/Hoc_thiet_ke_Web/Trang_Web_Dau_Tien.html)
+
 #### 1.1.7 BT
 
 
