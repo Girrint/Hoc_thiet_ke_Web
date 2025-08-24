@@ -75,3 +75,32 @@ Siêu văn bản (hypertext) là văn bản, được hiển thị trên màn h�
 Với văn bản thông thường, nội dung của văn bản được tổ chức theo kiểu tuần tự, nghĩa là bạn cần đọc theo thứ tự từ trước đến sau. Tuy nhiên, với siêu văn bản, nhờ các siêu liên kết bạn có thể đọc các nội dung không theo trình tự.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8UcR3T8PF-dzAaeyTOtTzT1CTmHfFK9wpXMFnChF-V4Nnqzt-k01xr0ffDzKNu05UPSe0qlOfi_VtoQ4SVkp-vb3esKqwJfW9Bg3ztq79C9o_1EKaMVzdv96_S-Ku_dEkfwEXhGX4FKY/w400-h259/Sieu+van+ban+4.jpg)
+
+### 1.1.6 BT
+
+
+### 1.1.7 Câu hỏi ôn tập
+
+**C1** A Uniform Resource Locator (URL) is a reference to a web resource that specifies its location on a computer network and a _______ for retrieving it.
+
+*mechanism*
+
+**C2** Các thành phần thường có trong một URL gồm?
+
+*scheme, fragment_id, query_string, path, port, domain*
+
+**C3** Khi mở tập tin C:\index.html bằng trình duyệt, giao thức trình duyệt đã sử dụng trong URL là?
+
+*file*
+
+**C4** Khi mở tập tin C:\index.html bằng trình duyệt, tại sao lại có ba dấu xuyệt (///) liền nhau?
+
+*Do lược bỏ tên của máy tính (localhost)*
+
+**C5** In computing, a hyperlink, or simply a link, is a ___________ to data that the user can follow by clicking or tapping. A hyperlink points to a whole document or to a specific element within a document.
+
+*reference*
+
+**C6** Hypertext is _______displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access. Hypertext documents are interconnected by hyperlinks, which are typically activated by a mouse click, keypress set, or screen touch. Apart from text, the term "hypertext" is also sometimes used to describe tables, images, and other presentational content formats with integrated hyperlinks.
+
+*text*
