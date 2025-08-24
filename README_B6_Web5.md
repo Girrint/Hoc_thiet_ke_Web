@@ -105,7 +105,7 @@ hiển thị kết quả.
 
 **Bước 1:** Truy cập trang [validator](https://validator.w3.org/) 
 
-**Bước 2:** Dán địa chỉ này vào (https://girrint.github.io/Hoc_thiet_ke_Web/Kiem_Tra_HTML.html) rồi chọn check.
+**Bước 2:** Dán địa chỉ này vào https://girrint.github.io/Hoc_thiet_ke_Web/Kiem_Tra_HTML.html rồi chọn check.
 
 **Để làm một trang web đơn giản, cần những gì?**
 
