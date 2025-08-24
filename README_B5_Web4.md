@@ -151,7 +151,7 @@ Một phần tử có kiểu hiển thị là inline (inline-level) sẽ không 
 
 * [**Bài Tập 3**](https://girrint.github.io/Hoc_thiet_ke_Web/B5_W4_BT3.html)
 
-* 
+* [**Bài Tập 4](https://girrint.github.io/Hoc_thiet_ke_Web/B5_W4_BT4.html)
 
 #### 1.1.8 Câu hỏi ôn tập
 
