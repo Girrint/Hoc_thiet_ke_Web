@@ -140,6 +140,9 @@ có phần mở rộng là .html. Sau đó, dùng trình duyệt để mở tậ
 
 **Bài Tập 4**
 
+* [**BT4**](https://girrint.github.io/Hoc_thiet_ke_Web/B6_W5_BT4.html)
+
+  
 ### 1.1.8 Câu hỏi ôn tập
 
 **C1** Trong UTF-8, UTF là viết tắt của các từ nào?
