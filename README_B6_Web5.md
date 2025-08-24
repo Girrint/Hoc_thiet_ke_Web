@@ -78,6 +78,8 @@ biểu diễn tất cả các chữ cái trong bộ kí tự Unicode, nhưng đi
 với ASCII. Vì lý do này, UTF-8 nhanh chóng trở thành bộ mã hóa được sử dụng rộng rãi trong các tập tin, thư điện tử, 
 trang web, và phần mềm xử lý văn bản.
 
+* [**Hiển thị tiếng Việt**](https://girrint.github.io/Hoc_thiet_ke_Web/Trang_Web_Dau_Tien2.html)
+
 **Một số thông tin thêm về phần tử meta:**
 
 - Phần tử meta phải đặt trong phần tử head.
