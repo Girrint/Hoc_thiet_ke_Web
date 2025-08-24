@@ -131,3 +131,8 @@ có phần mở rộng là .html. Sau đó, dùng trình duyệt để mở tậ
 * [Kiểm tra html](https://girrint.github.io/Hoc_thiet_ke_Web/Kiem_Tra_HTML.html)
 
 **Bài Tập 2**
+
+* [**BT2**](https://girrint.github.io/Hoc_thiet_ke_Web/B6_W5_BT2.html)
+
+**Bài Tập 3**
+
