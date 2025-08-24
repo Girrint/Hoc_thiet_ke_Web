@@ -126,5 +126,8 @@ có phần mở rộng là .html. Sau đó, dùng trình duyệt để mở tậ
 
 **Bài Tập 1** 
 
-[Kiểm tra html](https://girrint.github.io/Hoc_thiet_ke_Web/Kiem_Tra_HTML.html)
+* [**Hiển thị tiếng Việt**](https://girrint.github.io/Hoc_thiet_ke_Web/Trang_Web_Dau_Tien2.html)
 
+* [Kiểm tra html](https://girrint.github.io/Hoc_thiet_ke_Web/Kiem_Tra_HTML.html)
+
+**Bài Tập 2**
