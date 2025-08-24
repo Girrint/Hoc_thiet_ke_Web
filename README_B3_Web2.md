@@ -88,3 +88,39 @@ Giao diện của trang web, hay của ứng dụng web là phần nội dung đ
 - Dựng khung giao diện (layout) dựa trên Render tree.
   
 - Hiển thị nội dung lên trình duyệt (painting).
+
+**BT**
+
+**BT3** 
+
+* [**Bài 3**](https://girrint.github.io/Hoc_thiet_ke_Web/B3_W2_BT3.html)
+
+**Câu hỏi ôn tập**
+
+**C1** Trình duyệt web đầu tiên do ai tạo ra ?
+
+*Tim Berners-Lee*
+
+**C2** Có thể sử dụng trình duyệt web để?
+
+*Xem nội dung trang web*
+
+*Hỗ trợ quá trình thiết kế giao diện*
+
+*Giúp tìm và sửa lỗi trong quá trình phát triển web*
+
+**C3** A web browser (commonly referred to as a browser or internet browser) is an _________ for accessing the World Wide Web.
+
+*application software*
+
+**C4** Mã nguồn trang web, khi trình duyệt nhận về từ web server có thể gồm?
+
+*CSS, JavaScript, HTML*
+
+**C5** Một số kết quả trung gian được tạo ra khi trình duyệt hiển thị trang web là gì?
+
+*DOM tree, CSSOM, Trang web kết quả, Render tree*
+
+**C6** CSSOM là viết tắt của?
+
+*CSS Object Model*
