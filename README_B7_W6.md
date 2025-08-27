@@ -141,3 +141,78 @@ Với danh sách có thứ tự, giá trị bắt đầu luôn là 1, I, i, A ho
 | ```html <ol type="A" start="4"> ```| Danh sách sẽ được đánh thứ tự từ chữ D    |
 | ```html <ol type="a" start="4"> ```| Danh sách sẽ được đánh thứ tự từ chữ d    |
 
+**Danh sách mô tả**
+
+Danh sách mô tả **(description list, definition list)** là loại danh sách được sử dụng để biểu diễn dữ liệu theo kiểu từng cặp tên/giá trị (name/value)
+
+**Để tạo danh sách kiểu mô tả, sử dụng ba phần tử sau:**
+
+– dl để tạo danh sách, dl viết tắt của description list hoặc definition list
+
+– dt để tạo một mục cho danh sách (tên), dt viết tắt của description term hoặc definition term
+
+– dd để tạo phần định nghĩa/mô tả cho một mục (giá trị), dd viết tắt của describe a definition hoặc define a description.
+
+**Cú pháp là**
+```html
+<dl>
+
+            <dt>mục từ 1</dt>
+
+            <dd>định nghĩa cho mục từ 1</dd>
+
+<dt>mục từ 2</dt>
+
+            <dd>định nghĩa cho mục từ 2</dd>
+
+</dl>
+```
+
+**Chú ý:** phần tử dl chỉ chứa các phần tử dt và dd. Một mục tên (dt) có thể có nhiều giá trị (dd) hoặc ngược lại. Phần tử dt không thể chứa các phần tử Đề mục (heading), hoặc các phần tử nhóm nội dung (content-grouping element, ví dụ p) tuy nhiên, phần tử dd thì có thể chứa phần tử bất kì.
+
+**Danh sách lồng nhau**
+
+Một danh sách có thể chứa danh sách khác, miễn là danh sách con phải được đặt trong phần tử li của danh sách cha.
+
+Thực tế, ngoài việc tạo ra các thông tin kiểu liệt kê, bạn có thể sử dụng phần tử danh sách (ol, ul) để tạo ra các thành phần khác của trang web, như menu, breadcrumb (một loại điều hướng, giúp người dùng xác định vị trí hiện tại của họ trong website).
+
+### 1.1.3 Một số phần tử hiển thị nội dung khác
+
+Ở các phần trước, đã đề cập tới một số phần tử cốt lõi để hiển thị văn bản như: đoạn, đề mục, danh sách. Phần này sẽ tìm hiểu thêm một số phần tử HTML để hiển thị văn bản nữa, gồm: blockquote, pre, figure, figcaption. Rất khó để xếp những phần tử này vào một loại nào đó, tuy nhiên, chúng đều có hai đặc điểm, một là được hiển thị kiểu khối (block) và hai là được sử dụng để nhóm nội dung (grouping content).
+
+**Hiển thị một trích dẫn dài (long quotations)**
+
+Để đánh dấu và hiển thị phần nội dung được trích dẫn dài (trích dẫn gồm nhiều hàng) từ nguồn khác, lời nhận xét của khách hàng **(testimonial)**, và phần sao chép từ nguồn khác, bạn sẽ sử dụng phần tử **blockquote**. *Nội dung bên trong phần tử **blockquote** nên được bọc lại bằng các phần tử HTML khác như p, heading, ol, ul, dl.*
+
+**Hiển thị văn bản được định dạng sẵn**
+
+Như đã biết, khi biên dịch mã HTML để hiển thị, trình duyệt sẽ bỏ qua các khoảng trắng và các kí tự xuống hàng dư thừa.
+
+Vì vậy, với một số văn bản mà nhất thiết phải giữ các khoảng trắng, và các kí tự xuống hàng.
+
+*Ví dụ:* như một đoạn mã chương trình, một bài thơ, thì hãy sử dụng phần tử pre.
+
+Khi gặp phần tử pre, trình duyệt sẽ hiển thị ra đúng những gì đang có ở dạng mã nguồn.
+
+Cả nội dung và hình thức trình bày, nghĩa là giữ nguyên tất cả các khoảng trắng và các kí tự xuống hàng.
+
+Phần tử pre thuộc kiểu hiển thị khối, phông chữ mặc định được sử dụng là loại phông mà các kí tự có độ rộng bằng nhau, thường được gọi là monospace (ví dụ Courier). Pre là viết tắt của preformatted text.
+
+**Phần tử figure và figcapion**
+
+Phần tử figure là phần tử hiển thị kiểu khối, nó có thể chứa hình ảnh, đoạn mã, video, bảng, hoặc các loại dữ liệu khác, dùng để minh họa thêm cho nội dung được đề cập trong văn bản.
+
+*Ví dụ:* sau khi trình bày về “cấu trúc của một tài liệu HTML gồm những thành phần nào”, để dễ hiểu bạn sẽ dùng phần tử figure để chèn thêm một cái hình, minh họa về cấu trúc của một tài liệu HTML. 
+
+Nếu cần thêm chú thích cho: hình ảnh, đoạn mã, video hoặc bảng, nằm trong phần tử figure thì sử dụng phần tử figcaption.
+
+Phần tử figcaption có thể nằm trước hoặc sau phần nội dung mà nó chú thích.
+
+Caption có nghĩa là chú thích (từ comment cũng có nghĩa là chú thích, nhưng là chú thích cho đoạn mã). 
+
+Từ figure có nghĩa là hình ảnh, hình minh họa (thường được đánh số) trong các cuốn sách. Ví dụ, xem minh họa trong hình 10 (figure 10).
+
+### 1.1.5 BT
+
+**Bài tập 1**
+
