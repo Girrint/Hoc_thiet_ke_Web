@@ -109,3 +109,232 @@ Nó cũng có thể được đặt ở cuối một section, article, nav, ho�
 
 Với một tài liệu dài, bạn nên chia nhỏ nó ra thành nhiều phần thì sẽ dễ hiển thị và dễ đọc hơn.
 
+Giả sử nội dung của trang web là một cuốn sách, thì việc chia nội dung thành nhiều chương sẽ giúp bạn làm việc với nó thuận tiện và chuyên nghiệp hơn; hoặc một trang báo với nhiều tin tức thì việc chia thành các chuyên mục cũng giúp nó trở nên chuyên nghiệp, dễ đọc. Để thực hiện việc chia này, bạn sử dụng phần tử section.
+
+Phần tử section dùng để chia nội dung thành các vùng theo các chủ đề khác nhau.
+
+Mỗi phần tử section thường bao gồm heading (h1-h6) và phần nội dung.
+
+**Cú pháp**
+
+```html
+<section>
+                        <h1>Tên chủ đề</h1>
+                        <p>Nội dung của chủ đề</p>
+            </section>      
+```
+
+*Ví dụ:*
+
+```html
+<section>
+                        <h1>Chương 1</h1>
+                        <p>Nội dung của chương 1</p>
+            </section>
+            <section>
+                        <h1>Chương 2</h1>
+                        <p>Nội dung của chương 2</p>
+            </section>      
+```
+
+*Ví dụ về phần tử section, lấy từ W3Schools*
+
+```html
+<section>
+  <h1>WWF</h1>
+  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+<section>
+  <h1>WWF's Panda symbol</h1>
+  <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+</section>
+```
+
+*Ví dụ, sử dụng phần tử section để liệt kê các bài viết trên blog*
+
+```html
+ <section>
+    <h2>Tiêu đề bài viết 1</h2>
+    <p>Trích đoạn của bài viết 1</p>
+  </section>
+  <section>
+    <h2>Tiêu đề bài viết 2</h2>
+    <p>Trích đoạn của bài viết 2</p>
+  </section>
+<section>
+    <h2>Tiêu đề bài viết 3</h2>
+    <p>Trích đoạn của bài viết 3</p>
+  </section>
+```
+
+*Tuy nhiên, nếu chỉ đơn thuần chia nội dung trang web thành các vùng để định dạng, trang trí, xử lý tương tác, thì nên sử dụng phần tử div thay vì section.*
+
+**Bài viết (article)**
+
+Phần tử article cũng có chức năng chia nội dung thành các vùng như phần tử section.
+
+Có một điều khác là phần nội dung nằm trong phần tử article có thể tồn tại độc lập (không liên quan đến các nội dung khác), và có thể được sử dụng lại ở nơi khác.
+
+Phần tử article thường dùng để chứa một bài viết trên diễn đàn, báo điện tử, tạp chí, blog, hoặc chứa một bình luận của người dùng.
+
+*Ví dụ, sử dụng phần tử article để tạo một bài viết trên blog*
+
+```html
+<article>
+  <h1>Tiêu đề của bài viết</h1>
+    <ul>
+      <li>Tên tác giả</li>
+      <li>Thuộc thể loại: Bài viết mới</li>
+    </ul>
+   <p>
+    Phần nội dung của bài viết
+  </p>
+ </article>
+```
+
+**Bài viết gồm nhiều phần (article chứa section)**
+
+Nếu một article gồm nhiều nội dung, có thể chia nội dung thành các section.
+
+*Ví dụ:*
+
+```html
+<article>
+                        <h1>Tiêu đề của bài viết</h1>
+                        <ul>
+                                    <li>Tên tác giả</li>
+                                    <li>Thuộc thể loại: Bài viết mới</li>
+                        </ul>
+                        <section>
+                                    <h2>Mở đầu</h2>
+                                    <p>Nội dung của phần mở đầu</p>
+                        </section>
+                        <section>
+                                    <h2>Nội dung 1</h2>
+                                    <p>Nội dung 1 của bài viết</p>
+                        </section>
+<section>
+                                    <h2>Nội dung 2</h2>
+                                    <p>Nội dung 2 của bài viết</p>
+                        </section>
+                        <section>
+                                    <h2>Kết luận</h2>
+                                    <p>Nội dung của phần kết luận</p>
+                        </section>
+            </article>
+```
+
+**Một vùng chứa nhiều bài viết (section chứa article)**
+
+Ngược lại, một section cũng có thể chứa nhiều article.
+
+*Ví dụ:*
+
+```html
+<section>
+<h2>Các bài viết mới</h2>
+<article>
+  <h1>Tiêu đề của bài viết 1</h1>
+    <ul>
+      <li>Tên tác giả 1</li>
+      <li>Thuộc thể loại: Bài viết mới</li>
+    </ul>
+   <p>
+    Phần nội dung của bài viết 1
+  </p>
+ </article>
+
+<article>
+  <h1>Tiêu đề của bài viết 2</h1>
+    <ul>
+      <li>Tên tác giả 1</li>
+      <li>Thuộc thể loại: Bài viết mới</li>
+    </ul>
+   <p>
+    Phần nội dung của bài viết 2
+  </p>
+ </article>
+</section>
+```
+
+**Thông tin bổ trợ (aside)**
+
+Phần tử aside được sử dụng để chứa các thông tin có liên quan đến nội dung chính.
+
+Được đặt bên cạnh nội dung chính (trên, dưới, trái, phải).
+
+Aside có nghĩa là bổ sung thêm.
+
+ Về mặt trực quan có thể hình dung phần tử aside giống với sidebar (thanh bên) trên giao diện web. Tuy nhiên, hai cái này không phải là một.
+
+Aside mang tính bổ trợ về mặt ngữ nghĩa, trong khi sidebar có nghĩa là đặt ở bên cạnh khi hiển thị.
+
+Trong thực tế, phần tử aside thường được dùng để chứa trích dẫn (quote), thông tin thêm (background information), danh sách các liên kết, phát biểu (callouts), hoặc bất cứ thứ gì liên quan (mà không quan trọng) đến tài liệu.
+
+*Ví dụ, sử dụng phần tử aside để liệt kê các liên kết liên quan tới phần nội dung*
+
+```html
+<h1>Một số kĩ năng sinh viên nên chuẩn bị</h1>
+<p>Trong thời gian học tại trường Đại học, các bạn nên trang bị cho mình những thứ sau, để khi ra trường có thể tự tin làm việc, và hạnh phúc trong công việc.</p>
+<p>Những thứ các bạn nên để ý là: kiến thức chuyên môn và cuộc sống, kĩ năng làm nghề, kĩ năng làm việc, kĩ năng sống; thái độ trong giao tiếp, trong công việc và thái độ với nghề mà mình đang theo đuổi.</p>
+<aside>
+<h2>Một số cuốn sách về định hướng nên đọc</h2>
+<ul>
+<li>Khuyến học</li>
+<li>Cà phê cùng Tony</li>
+<li>Khởi hành</li>
+<li>Đúng việc</li>
+<li>Trên đường băng</li>
+<li>Code dạo ký sự</li>
+</ul>
+</aside>
+```
+
+**Điều hướng (navigation)**
+
+Phần tử nav được sử dụng để chứa các liên kết (link) điều hướng, thường được sử dụng để tạo trình đơn (menu) ngang, dọc.
+
+**Lưu ý:** không phải mọi liên kết đều phải đặt trong phần từ nav. Nav là viết rút gọn của navigation.
+
+*Ví dụ:*
+
+```html
+<nav>
+<a href="#">Home</a> |    
+<a href="#">About</a> |
+<a href="#">Blog</a> |
+<a href="#">Sign in</a>
+</nav>
+```
+
+**Thông tin liên hệ (address)**
+
+Phần tử address được sử dụng để chứa các thông tin liên lạc với tác giả của bài viết hoặc người đăng bài viết. 
+
+Phần tử này thường được để ở cuối của tài liệu, cuối vùng hoặc cuối bài viết.
+
+Phần tử address nên đặt trong phần tử footer.
+
+**Lưu ý:** nội dung trong phần tử address thường là liên kết tới một email, trang thông tin tác giả, hoặc một website khác, chứ rất hiếm khi là một địa chỉ cư trú, hoặc địa chỉ văn phòng.
+
+*Ví dụ:*
+
+```html
+<address>
+Đóng góp bởi <a href="../authors/teo/">Văn Tèo</a>,
+<a href="http://www.nhaxuatban.com/">Nhà Xuất Bản</a>
+</address>
+```
+
+### 1.1.3 BT
+
+**Bài tập 1**
+
+**Bài tập 2**
+
+**Bài tập 3**
+
+### 1.1.4 Câu hỏi ôn tập
+
+**C1** The content inside the **article** element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
+
