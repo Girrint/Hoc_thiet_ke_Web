@@ -216,3 +216,29 @@ Từ figure có nghĩa là hình ảnh, hình minh họa (thường được đ�
 
 **Bài tập 1**
 
+**Bài tập 2**
+
+**Bài tập 3**
+
+### 1.1.6 Câu hỏi ôn tập
+
+**C1** Trong HTML, chữ "hr" trong phần tử hr là viết tắt của chữ nào ?
+
+ Horizontal Rule
+
+ **C2** Trong HTML, chữ “pre” trong phần tử pre là viết tắt của chữ nào?
+
+ Preformatted text
+
+ **C3** Trong HTML, chữ ‘dl” trong phần tử dl là viết tắt của chữ nào?
+
+ Description list
+
+ **C4** Trong HTML, chữ ‘ul” trong phần tử ul là viết tắt của chữ nào?
+
+ unordered list
+
+ **C5** Trong HTML, chữ ‘ol” trong phần tử ol là viết tắt của chữ nào?
+
+ ordered list
+ 
