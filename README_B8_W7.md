@@ -338,3 +338,6 @@ Phần tử address nên đặt trong phần tử footer.
 
 **C1** The content inside the **article** element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
 
+**C2** The **footer** element represents a container for introductory content or a set of navigational links.
+
+**C3** The **aside** element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication).
