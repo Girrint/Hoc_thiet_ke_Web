@@ -24,3 +24,85 @@ gọi chung là các điều khiển (form control).
 Phần xử lý là một chương trình/ứng dụng hoặc đoạn mã xử lý (script) đặt tại máy web server, nó sẽ xử lý các thông tin thu được 
 từ người dùng và trả về kết quả tương ứng. Phần này chúng ta sẽ tìm hiểu trong phần lập trình phía back-end.
 
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEho50z1PB5vzXirF4r-F3kjFaqibpRi811x9hwcYthgcqS1oAcHC4_kB4OVTYJ9jx7QWh4-0RkiGlG11jBeo4hrxdVnBQlVlGOuqbzLz4S80dLb3mn-k87gOJO431jYXNw7xYwBGJ65Ygdliee79ZKmqeTo5NhqyNuDwzMjKslpV9towFANXMmn-LVE/w400-h255/formHTML.jpg)
+
+| Mã hoá dữ liệu của form |
+|-------------------------|
+| Dữ liệu của form sẽ được mã hóa tương tự như mã hóa URL, nghĩa là các khoảng trắng và các kí tự không được phép gửi trực tiếp về server sẽ được chuyển sang dạng giá trị hệ 16 (hexadecimal) tương ứng. |
+| Ví dụ, khoảng trắng sẽ được chuyển thành %20, dấu xuyệt (/) sẽ là %2F. Lập trình viên không cần quan tâm tới việc mã hóa này, vì trình duyệt sẽ thực hiện tự động. |
+
+**Phần tử form**
+
+Phần tử form chứa toàn bộ nội dung của form, bao gồm: các điều khiển (form control) như các ô nhập liệu, các nút; các phần tử khối (block element) như h1, p, danh sách. Phần tử form không thể chứa phần tử form khác, hay nói cách khác không được lồng form.
+
+VD:
+``html
+<!DOCTYPE html>
+
+<html>
+
+ 
+
+<head>
+
+            <meta charset="utf-8">
+
+            <title>Đăng ký nhận tin</title>
+
+</head>
+
+ 
+
+<body>
+
+  <h1>Đăng ký nhận tin</h1>
+
+  <form action="/dang-ky.php" method="post">
+
+    <fieldset>
+
+      <legend>Gửi thông tin của bạn cho chúng tôi</legend>
+
+      <p>Đăng ký để nhận được các thông tin định kì về giá nông sản</p>
+
+      <ol>
+
+        <li><label for="ho-ten">Tên:</label>
+
+          <input type="text" name="ten" id="ho-ten"></li>
+
+        <li><label for="email">Email:</label>
+
+          <input type="text" name="email" id="email"></li>
+
+      </ol>
+
+      <input type="submit" value="Đăng ký">
+
+    </fieldset>
+
+  </form>
+
+</body>
+
+</html>
+```
+
+
+Ngoài vai trò là thùng chứa các control, để giao tiếp/làm việc với ứng dụng web tại server, form còn có thêm một số thuộc tính đi kèm.
+
+**Thuộc tính action**
+
+Thuộc tính action cho biết địa chỉ (URL) của ứng dụng/chương trình hoặc đoạn mã (tại máy web server) sẽ xử lý thông tin do form gửi về. 
+
+Phần mở rộng của tập tin là .php cho biết: ứng dụng trên web server để xử lý form được viết bằng ngôn ngữ PHP. Người lập trình có thể sử dụng một trong các ngôn ngữ sau để viết các đoạn mã xử lý tại web server.
+
+VD:
+– PHP
+– C#
+– Python
+– Golang
+– JavaScript
+– Java
+– Ruby
+
