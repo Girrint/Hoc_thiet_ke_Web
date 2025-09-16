@@ -336,8 +336,12 @@ Phần tử address nên đặt trong phần tử footer.
 
 ### 1.1.4 Câu hỏi ôn tập
 
-**C1** The content inside the **article** element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
+**C1** The content inside the **main** element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
 
-**C2** The **footer** element represents a container for introductory content or a set of navigational links.
+**C2** The **header** element represents a container for introductory content or a set of navigational links.
 
-**C3** The **aside** element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication).
+**C3** The **article** element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication).
+
+**C4** The **aside**  element identifies content that is separate from, but tangentially related to, the surrounding content. In print, its equivalent is a sidebar, but it couldn’t be called “sidebar” because putting something on the “side” is a presentational description, not semantic.
+
+**C5** The **address** element is used to create an area for contact information for the author or maintainer of the document. It is generally placed at the end of the document or in a section or article within a document.
