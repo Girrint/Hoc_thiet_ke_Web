@@ -224,8 +224,243 @@ nghĩa là chọn mục này sẽ loại trừ các mục còn lại (ví dụ: 
 Ngược lại với nút radio, nút checkbox được sử dụng để nhóm các mục chọn lại với nhau, nó cho phép người dùng chọn một hoặc
 nhiều mục cùng lúc.
 
+**Nút radio**
 
+Để tạo nút radio, sử dụng input với thuộc tính type=“radio”, cú pháp là:
 
+```html <input type="radio" name="variable" value="value">```
 
+- Thuộc tính name là bắt buộc, sử dụng thuộc tính này để kết buộc (bind) các radio lại với nhau, những radio có giá trị name giống nhau sẽ tạo thành một nhóm, các nút chọn trong nhóm này có tính loại trừ nhau. Giá trị của thuộc tính name cũng là tên biến để server tham chiếu tới, nhằm lấy giá trị (value).
+- Thuộc tính value chứa giá trị sẽ được gửi về server nếu nút radio tương ứng được chọn. Mỗi radio có một giá trị value khác nhau.
 
+VD: hiển thị các mục chọn về độ tuổi của người dùng
 
+```html
+<fieldset>
+
+      <legend>Bạn bao nhiêu tuổi?</legend>
+
+      <ol>
+
+        <li><label><input type="radio" name="tuoi" value="duoi24" checked> dưới
+
+        24</label></li>
+
+        <li><label><input type="radio" name="tuoi" value="25-34"> 25 tới 34</label></li>
+
+        <li><label><input type="radio" name="tuoi" value="35-44"> 35 tới 44</label></li>
+
+        <li><label><input type="radio" name="tuoi" value="tren45"> 45+</label></li>
+
+      </ol>        
+
+</fieldset>
+```
+
+Nút radio nào được chọn sẽ được đánh dấu bằng thuộc tính checked=“checked”. Tuy nhiên, trong cú pháp của HTML, không bắt buộc phải viết giá trị của thuộc tính checked, mà chỉ cần ghi tên của thuộc tính là trình duyệt sẽ hiểu radio đó đã được chọn.
+
+Vì các radio thuộc cùng một nhóm có tính loại trừ nhau, nên khi người dùng gửi (submit) form về server, sẽ chỉ có một radio được chọn, nghĩa là sẽ chỉ có một thuộc tính name và value tương ứng được gửi về server.
+
+Lập trình viên có thể thiết lập radio được chọn mặc định bằng cách thêm vào thuộc tính checked (như radio đầu tiên trong ví dụ trên).
+
+**Nút checkbox**
+
+Để tạo nút checkbox, sử dụng input với thuộc tính type=“checkbox”, cú pháp là:
+
+```html <input type="checkbox" name="variable" value="value">```
+
+Cũng giống như nút radio, các checkbox sử dụng giá trị thuộc tính name giống nhau để tạo thành một nhóm, chỉ khác là checkbox cho phép chọn cùng lúc nhiều hơn một mục. Khi gửi form, checkbox nào được chọn thì giá trị (value) của nó sẽ được gửi về server.
+
+VD: 
+
+```html
+    <fieldset>
+
+      <legend>Thói quen đọc của bạn là gì?</legend>
+
+      <ol>
+
+        <li><label><input type="checkbox" name="nguon" value="sach-giay" checked> sách giấy</label></li>
+
+        <li><label><input type="checkbox" name="nguon" value="ebook" checked> sách điện tử</label></li>
+
+        <li><label><input type="checkbox" name="nguon" value="mang-xa-hoi"> mạng xã hội</label></li>
+
+        <li><label><input type="checkbox" name="nguon" value="nghe-doc"> nghe người khác đọc</label></li>
+
+      </ol>
+
+    </fieldset>
+```
+
+Tất nhiên, checkbox không nhất thiết phải sử dụng theo nhóm, mà có thể dùng nó một mình. 
+
+VD:
+
+```html
+    <fieldset>
+
+      <legend>Bạn có muốn nhận thông báo khi có sách mới?</legend>
+
+      <ol>
+
+        <li><label><input type="checkbox" name="thong-bao" value="co"> có, đồng ý nhận thông báo vào hộp thư</label></li>
+
+      </ol>
+
+    </fieldset>
+```
+
+**Các mục chọn kiểu trình đơn**
+
+Ở các phần trước đã tìm hiểu các công cụ cho phép người dùng có thể lựa chọn như: datalist, radio, checkbox. Phần này sẽ tìm hiểu thêm một số công cụ chọn khác, đó là trình đơn xổ (drop-down menu), hoặc trình đơn cuộn (scrolling menu). Cả hai loại trình đơn này đều được tạo ra bằng phần tử select.
+
+**Mục chọn kiểu trình đơn xổ**
+
+Ở chế độ mặc định, phần tử select được hiển thị dưới dạng một trình đơn xổ, khi đó giá trị của thuộc tính size sẽ là 1. Thuộc tính size được sử dụng để xác định số mục mà người dùng được phép chọn trong trình đơn. Vậy, trong trình đơn xổ, người dùng chỉ được phép chọn một mục tại một thời điểm.
+
+VD:
+
+```html
+    <p>Trong các quyển sách sau, bạn thích quyển nào nhất?
+
+    <select name="thich-nhat">
+
+      <option value=“khuyen-hoc”>Khuyến học</option>
+
+      <option>Đúng việc</option>
+
+      <option>Khởi hành</option>
+
+      <option>Trên đường băng</option>
+
+      <option>Nhà giả kim</option>
+
+    </select></p>
+```
+
+Từ ví dụ trên có thể thấy, vai trò của phần tử select chính là thùng chứa (container), mỗi mục  chọn được tạo ra bằng phần tử option, khi người dùng gửi form, nội dung của phần tử option sẽ được gửi về server thông qua thuộc tính name của phần tử select. Nếu không muốn gửi nội dung của phần tử option về server thì có thể thiết lập thuộc tính value để thay thế, như ở mục chọn đầu tiên của ví dụ trên, nếu được chọn, giá trị khuyen-hoc sẽ được gửi về server chứ không phải Khuyến học.
+
+**Mục chọn kiểu trình đơn cuộn**
+
+Cách tạo “mục chọn kiểu trình đơn cuộn” cũng tương tự như “mục chọn kiểu trình đơn xổ”, chỉ khác là giá trị của thuộc tính size phải lớn hơn 1.
+
+VD:
+
+```html
+<p>Trong các quyển sách sau, bạn thích quyển nào?
+
+    <select name="thich-nhat" size="4" multiple>
+
+      <option>Khuyến học</option>
+
+      <option selected>Đúng việc</option>
+
+      <option selected>Khởi hành</option>
+
+      <option>Trên đường băng</option>
+
+      <option>Nhà giả kim</option>
+
+    </select></p>
+```
+
+Để thiết lập chế độ chọn mặc định cho control, thêm thuộc tính selected vào phần tử option tương ứng, mục nào có thuộc tính này sẽ được tô đậm hơn so với các mục còn lại.
+
+**Phân nhóm các mục chọn**
+
+Để phân nhóm các mục chọn, sử dụng phần tử optgroup, tên của nhóm được đặt trong thuộc tính label (đừng nhầm thuộc tính label với phần tử label). 
+
+VD:
+
+```html
+<p>Trong các quyển sách sau, bạn thích quyển nào?
+
+      <select name="thich-nhat" size="7" multiple>
+
+        <optgroup label="Sách dịch">
+
+          <option>Khuyến học</option>
+
+          <option selected>Khởi hành</option>
+
+          <option>Nhà giả kim</option>
+
+        </optgroup>
+
+        <optgroup label="Sách Việt">
+
+          <option>Trên đường băng</option>
+
+          <option selected>Đúng việc</option>
+
+        </optgroup>
+
+      </select></p>
+```
+
+**Đính kèm tập tin**
+
+Web form không chỉ cho người dùng nhập thông tin, mà nó còn cho đính kèm các tập tin từ đĩa của người dùng. Ví dụ, trang web của cửa hàng in ấn sẽ cho khách hàng gửi các tập tin cần in, hoặc một tạp chí sẽ cho người dùng đăng ảnh dự thi.
+
+Sử dụng input với type=“file” để tạo một control cho người dùng đính kèm tập tin.
+
+VD:
+
+```html
+<form action="/client.php" method="POST" enctype="multipart/form-data">
+
+    <label>Gửi ảnh đại diện của bạn
+
+      <em>(tùy chọn)</em><br>
+
+      <input type="file" name="photo" size="28"></label>
+
+</form>
+```
+
+Giao diện để đính kèm tập tin rất đa dạng, tùy thuộc vào trình duyệt và hệ điều hành. Nó có thể là một trường nhập văn bản với một nút bấm, hoặc đơn giản chỉ là một nút bấm để tìm tới tập tin. Thuộc tính size được sử dụng để xác định độ rộng của trường nhập văn bản.
+
+**Lưu ý quan trọng, để có thể đính kèm tập tin, form bắt buộc phải có thuộc tính ```enctype=“multipart/form-data”```, enctype là viết tắt của encoding type; thuộc tính method của form phải là POST.**
+
+**Control ẩn**
+
+Trong một số trường hợp, bên cạnh dữ liệu do người dùng nhập vào, lập trình viên cũng muốn gửi thêm dữ liệu về chương trình/ứng dụng web bên server. Để làm việc này, chúng ta có thể sử dụng control ẩn. Với control ẩn, dữ liệu sẽ được gửi về server khi người dùng gửi form (submit), tuy nhiên, control ẩn sẽ không được hiển thị ra ngoài giao diện.
+
+Để tạo ra control ẩn, sử dụng phần tử input với thuộc tính ```type=“hidden”```. Mục đích duy nhất của control ẩn là gửi một cặp dữ liệu, có kiểu name/value về server khi người dùng gửi form.
+
+VD: ```html <input type="hidden" name="step" value="1">```
+
+**Control date và time**
+
+Để có một giao diện nhập ngày tháng thân thiện và tiện lợi, trước đây chúng ta thường sử dụng JavaScript, tuy nhiên HTML5 đã cung cấp một số các control để làm việc này. Vì mức độ hỗ trợ của các trình duyệt với HTML5 có khác nhau, nên chúng ta cần tìm hiểu thêm khi sử dụng các control liên quan đến date và time.
+
+| **Input** | **Chức năng** |
+|-----------|---------------|
+| ```<input type="date" name="ngay-dat-ve" value="2023-02-17">``` | Hiển thị một control để nhập ngày tháng (theo định dạng năm-tháng-ngày: YYYY-MM-DD), kiểu giống một trang lịch (calendar) |
+| ```<input type="time" name="gio-dat-ve" value="10:53:30">``` | Hiển thị một control để nhập thời gian (giờ, phút, giây), không có thông tin xác định múi giờ (time zone). Định dạng hh:mm:ss |
+| ```<input type="datetime-local" name="ngay-gio-dat-ve" value="2023-02-17T13:54:02">``` | Hiển thị một control để nhập ngày tháng và thời gian, không có thông tin múi giờ. (YYYY-MM-DDThh:mm:ss) |
+| ```<input type="month" name="thang" value="2023-02">``` | Hiển thị một control để nhập tháng trong năm |
+| ```<input type="week" name="tuan">``` | Hiển thị một control để nhập tuần trong năm |
+
+**Nhập số**
+
+Để tạo control nhập số, HTML5 sử dụng phần tử input với type là number hoặc range.
+
+VD: một control nhập số với type=“number” và giá trị nhập vào phải nằm trong khoảng [0, 1000]
+
+```html
+<label>Số sách bạn đã đọc: <input type="number" name="so-luong" min="0" max="1000"></label>
+```
+
+VD: một control nhập số với type=“range” và giá trị nằm trong khoảng [0, 10], độ tăng/giảm mỗi mức của thanh trượt là 0.5
+
+```html
+<label>Mức độ hài lòng (0 tới 10): <input type="range" name="hai-long" min="0" max="10" step=".5"></label>
+```
+
+**Bảng màu**
+
+Để hiển thị một bảng màu cho phép người dùng chọn từng màu cụ thể, HTML5 sử dụng phần tử input với ```type=“color”```. Giá trị màu được xác định bằng RGB hệ 16 (#CCAA23).
+
+VD: ```html <label>Bạn thích màu gì? <input type="color" name="mau"></label>```
