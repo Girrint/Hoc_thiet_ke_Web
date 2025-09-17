@@ -16,17 +16,11 @@ Chúng ta có thể sử dụng một số cách sau để định chuẩn CSS:
 
 ```html
    <style>
-
         * {
-
             margin: 0;
-
             padding: 0;
-
         }
-
 …
-
     </style>
 ```
 
@@ -46,39 +40,22 @@ Ví dụ, đoạn mã sau minh họa hình ảnh của box model, gồm 5 cái h
 ```html
 
    <style>
-
         body { border: 1px solid red; }
-
         h1 { border: 1px solid red; }
-
         div { border: 1px solid red; }
-
         p { border: 1px solid red; }
-
         em { border: 1px solid red; }
-
         * { padding: 3px}
-
     </style>
-
-   
 
 </head>
 
- 
-
 <body>
-
     <h1 id="tieu-de">Hi bac Teo!</h1>
-
     <div>
-
         <p>Mô hình cái hộp là cách thức tổ
-
             chức của CSS để <em>hiển thị</em> các phần tử ra giao diện.</p>
-
     </div>
-
 
 ```
 
@@ -142,11 +119,8 @@ VD:
 
 ```html
      <div style="color: red; width: 200px">
-
         <p style="width: 50%">width: 50% == 100px</p>
-
         <p style="width: 90%">width: 90% == 180px</p>
-
     </div>
 ```
 
@@ -168,39 +142,22 @@ VD:
 
 ```html
     <style>
-
         body { border: 1px solid red; }
-
         h1 {
-
             font-size: 32px;
-
             margin-left: 2em;
-
         }
-
         h2 {
-
             font-size: 20px;
-
             margin-left: 2em;
-
         }
-
     </style>
-
-   
 
 </head>
 
- 
-
 <body>
-
     <h1>Font-size: 32px </h1>
-
     <h2>font-size: 20px</h2>
-
 </body>
 ```
 
