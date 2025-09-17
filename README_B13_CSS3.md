@@ -175,24 +175,15 @@ VD:
 
 ```html
     <style>
-
         h1 { font-size: 3rem; }
-
         body {
-
             font-size: 10px;
-
         }
-
     </style>
-
-   
 
 </head>
 
 <body>
-
     <h1>font-size: 3rem == 48px</h1>
-
 </body>
 ```
