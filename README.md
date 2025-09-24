@@ -58,7 +58,7 @@
 
 [B7_W6_BT4.htm](B7_W6_BT4.html)
 
-[Form_Login.html(Form_Login.html)
+[Form_Login.html](Form_Login.html)
 
 [Kiem_Tra_HTML.html](iem_Tra_HTML.html)
 
@@ -99,4 +99,5 @@
 [README_B9_W20.md](README_B9_W20.md)
 
 [Trang_Web_Dau_Tien.html](TrangWeb_Dau_Tien.html)
+
 [Trang_Web_Dau_Tien2.html](Trang_eb_Dau_Tien2.html)
