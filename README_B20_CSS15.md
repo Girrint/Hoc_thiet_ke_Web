@@ -204,7 +204,7 @@ Start by getting familiar with the source document. Open _bakery.html_ in a brow
 Now take a look at _bakery-styles.css_ in your text editor. I used comments in the style sheet to organize the styles related to each section (bonus points for you if you keep the styles organized as you go along!). You will find styles for text formatting, colors, and backgrounds—all properties that we’ve covered so far in this book, so they should look familiar. Now let’s add some rules to _bakery-styles.css_ to add padding to the elements.
 
 [_bakery-styles.css_]
-```html
+```css
 @charset "UTF-8";
 
 body {
