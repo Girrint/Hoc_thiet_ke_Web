@@ -340,25 +340,12 @@ font-size: 1em;
 
 Bài tập 2.2d. Mở một trang web trên Internet (ví dụ một trang trong themeforest, báo Thanh niên, hoặc thegioididong, …), sử dụng Developer tools để ghi lại các phông chữ, cỡ chữ, độ đậm, kiểu dáng đã sử dụng. Điền kết quả vào bảng sau:
 
-**Nội dung**
-
-**Phông chữ**
-
-**Cỡ chữ**
-
-**Độ đậm**
-
-**Kiểu dáng**
-
-Menu chính
-
-Đoạn văn bản
-
-Nội dung vùng chân trang (page footer)
-
-Tiêu đề mức 1 (h1)
-
-…
+|**Nội dung**|**Phông chữ**|**Cỡ chữ**|**Độ đậm**|**Kiểu dáng**|
+|------------|-------------|----------|----------|-------------|
+|Menu chính| | | | |
+|Đoạn văn bản| | | | |
+|Nội dung vùng chân trang (page footer)| | | | |
+|Tiêu đề mức 1 (h1)| | | | |
 
 ### 2.2.9       Câu hỏi ôn tập
 
@@ -394,7 +381,7 @@ D. font-size
 
 Câu 4. Cho đoạn mã sau:   
 
-…
+```css
 
 <style>
 
@@ -416,7 +403,7 @@ Câu 4. Cho đoạn mã sau:   
 
     </article>
 
-…
+```
 
 Cỡ chữ của h1 là bao nhiêu px?
 
