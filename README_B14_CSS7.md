@@ -353,7 +353,7 @@ Câu 1.  is defined relative to the font size of the root element. The root elem
 
 A. em
 
-B. rem
+**B. rem**
 
 C. %
 
@@ -367,13 +367,13 @@ B. h1 { font-size: 20px;   }
 
 C. h1 { font-size: 1.5rem;   }
 
-D. h1 { font-size: 1.5 em; }
+**D. h1 { font-size: 1.5 em; }**
 
 Câu 3. Trong CSS, muốn định dạng chữ nghiêng, sử dụng thuộc tính nào?
 
 A. font-weight
 
-B. font-style
+**B. font-style**
 
 C. font-variant
 
@@ -409,12 +409,9 @@ Cỡ chữ của h1 là bao nhiêu px?
 
 A. 16
 
-B. 21
+**B. 21**
 
 C. 14
 
 D. 24
 
------
-
-Bài sau: [CSS (8) - Bộ chọn](https://legiacong.blogspot.com/2023/05/css-8-bo-chon.html)
