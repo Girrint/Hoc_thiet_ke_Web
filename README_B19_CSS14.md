@@ -1,10 +1,5 @@
-  
-
 ### CSS (14) - Mô hình cái hộp (1)
 
-Bài trước: [CSS (13) - Ảnh nền (2)](https://legiacong.blogspot.com/2023/08/css-13-anh-nen-2.html)
-
------
 
 4         Định dạng bố cục
 ==========================
@@ -918,5 +913,3 @@ Quan sát ví dụ trong hình dưới đây, gồm hai phần tử _p_ nằm c�
   
 
 Sử dụng margin với giá trị dương và âm cho phép di chuyển một phần tử tới mọi vị trí trong một trang. Đây là một trong những kĩ thuật cơ bản trong việc tạo bố cụ trang web.
-
-**-----**
