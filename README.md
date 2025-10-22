@@ -156,6 +156,8 @@
 
 ## B22
 
+[README_B22_JS2.md](README_B22_JS2.md)
+
 ## B23
 
 ## B24
