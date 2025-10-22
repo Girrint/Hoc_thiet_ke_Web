@@ -1,14 +1,34 @@
 # Thiet ke web
 
-[B10_W25.tml](B10_W25.html)
+## B1
 
-[B13_BT1.hml](B13_BT1.html)
+[README_B1_Web5.md](README_B1_Web5.md)
+
+[README_B1_Web6.md](README_B1_Web6.md)
+
+[README_B1_Web7.md](README_B1_Web7.md)
+
+## B2
+
+[README_B2_Web1.md](README_B2_Web1.md)
 
 [B2_W1_BT2.htm](B2_W1_BT2.html)
 
+## B3
+
+[README_B3_Web2.md](README_B3_Web2.md)
+
 [B3_W2_BT3.htm](B3_W2_BT3.html)
 
+## B4
+
+[README_B4_Web3.md](README_B4_Web3.md)
+
 [B4_W3_BT3.htm](B4_W3_BT3.html)
+
+## B5
+
+[README_B5_Web4.md](README_B5_Web4.md)
 
 [B5_W4_BT2.htm](B5_W4_BT2.html)
 
@@ -16,11 +36,19 @@
 
 [B5_W4_BT4.htm](B5_W4_BT4.html)
 
+## B6
+
+[README_B6_Web5.md](README_B6_Web5.md)
+
 [B6_W5_BT2.htm](B6_W5_BT2.html)
 
 [B6_W5_BT3.htm](B6_W5_BT3.html)
 
 [B6_W5_BT4.htm](B6_W5_BT4.html)
+
+## B7
+
+[README_B7_Web6.md](README_B7_Web6.md)
 
 [B7_W6_BT1.1.html](B7_W6_BT1.1.html)
 
@@ -58,45 +86,67 @@
 
 [B7_W6_BT4.htm](B7_W6_BT4.html)
 
-[Form_Login.html](Form_Login.html)
+## B8
 
-[Kiem_Tra_HTML.html](iem_Tra_HTML.html)
+[README_B8_W7.md](README_B8_W7.md)
+
+## B9
+
+[README_B9_W20.md](README_B9_W20.md)
+
+## B10
 
 [README_B10_W24.md](README_B10_W24.md)
 
 [README_B10_W25.md](README_B10_W25.md)
 
+[B10_W25.html](B10_W25.html)
+
+## B11
+
 [README_B11_CSS1.md](EADME_B11_CSS1.md)
+
+## B12
 
 [README_B12_CSS2.md](EADME_B12_CSS2.md)
 
-[README_B13_CSS3.md](EADME_B13_CSS3.md)
+## B13
+
+[README_B13_CSS3.md](README_B13_CSS3.md)
+
+[B13_BT1.hml](B13_BT1.html)
+
+## B14
 
 [README_B14_CSS5.md](EADME_B14_CSS5.md)
 
-[README_B1_Web5.md](README_B1_Web5.md)
+## B15
 
-[README_B1_Web6.md](README_B1_Web6.md)
+## B16
 
-[README_B1_Web7.md](README_B1_Web7.md)
+## B17
 
-[README_B2_Web1.md](README_B2_Web1.md)
+## B18
 
-[README_B3_Web2.md](README_B3_Web2.md)
-
-[README_B4_Web3.md](README_B4_Web3.md)
-
-[README_B5_Web4.md](README_B5_Web4.md)
-
-[README_B6_Web5.md](README_B6_Web5.md)
-
-[README_B7_Web6.md](README_B7_Web6.md)
-
-[README_B8_W7.md](README_B8_W7.md)
+## B19
 
 [README_B9_W19.md](README_B9_W19.md)
 
-[README_B9_W20.md](README_B9_W20.md)
+## B20
+
+## B21
+
+
+
+
+
+
+
+
+
+[Form_Login.html](Form_Login.html)
+
+[Kiem_Tra_HTML.html](Kiem_Tra_HTML.html)
 
 [Trang_Web_Dau_Tien.html](TrangWeb_Dau_Tien.html)
 
