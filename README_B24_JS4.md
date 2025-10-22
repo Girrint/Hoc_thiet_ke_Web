@@ -6,7 +6,7 @@
 
 ### 4.1 Kiểu number
 
-Số nguyên và số thập phân
+**Số nguyên và số thập phân**
 
 Number (số) là một trong bảy kiểu dữ liệu nguyên thủy (primitive) của JavaScript, dùng để biểu diễn các giá trị số, bao gồm cả số nguyên và số thập phân.
 
@@ -21,44 +21,19 @@ Vậy là trong JavaScript, bạn không cần phải khai báo kiểu dữ li�
 |```js typeof integer; ```|\'number\'|
 |```js typeof float; ```|\'number\'|
 
-Các hệ cơ số khác
+**Các hệ cơ số khác**
 
 Bạn có thể viết số ở các hệ cơ số khác ngoài hệ thập phân (cơ số 10) bằng cách sử dụng các tiền tố:
 
-Hệ cơ số
+|Hệ cơ số|Tiền tố|Ví dụ|Giá trị thập phân|
+|--------|-------|-----|-----------------|
+|Nhị phân|0b|0b1011|11|
+|Bát phân|0o|0o75|61|
+|Thập lục phân|0x|0xFF|255|
 
-Tiền tố
+*Ví dụ:*
 
-Ví dụ
-
-Giá trị thập phân
-
-Nhị phân
-
-0b
-
-0b1011
-
-11
-
-Bát phân
-
-0o
-
-0o75
-
-61
-
-Thập lục phân
-
-0x
-
-0xFF
-
-255
-
-Ví dụ:
-
+```js
 NhiPhan = 0b1011;
 
 console.log(NhiPhan); //11
@@ -74,11 +49,13 @@ console.log(BatPhan); //61
 ThapLucPhan = 0xFF;
 
 console.log(ThapLucPhan); //255
+```
 
-Phương thức kiểm tra số nguyên
+**Phương thức kiểm tra số nguyên**
 
 Vì số nguyên và số thập phân cùng có kiểu là number, nên ES6 cung cấp phương thức Number.isInteger() để kiểm tra chính xác xem một giá trị có phải là số nguyên hay không.
 
+```js
 Number.isInteger(5); // true
 
 Number.isInteger(5.0); // true
@@ -86,8 +63,9 @@ Number.isInteger(5.0); // true
 Number.isInteger(5.1); // false
 
 Number.isInteger('5.0'); // false
+```
 
-Ký hiệu mũ
+**Ký hiệu mũ**
 
 Ký hiệu mũ (exponential notation) là một cách để biểu diễn số theo dạng “hệ số nhân với 10 lũy thừa” để thể hiện các số rất lớn hoặc rất nhỏ một cách gọn gàng. 
 
@@ -95,32 +73,15 @@ Ký hiệu mũ bao gồm một hệ số (thường là số thập phân nằm 
 
 Trong JavaScript, ký hiệu mũ được sử dụng với chữ cái e (hoặc E), viết tắt cho "exponent" (số mũ) hoặc "power of 10" (lũy thừa của 10).
 
-Ký hiệu mũ (JavaScript)
-
-Ý nghĩa toán học
-
-Giá trị
-
-1e3
-
-1×103
-
-1000
-
-2.5e-2
-
-2.5×10−2
-
-0.025
-
-5.67e5
-
-5.67×105
-
-567000
+|Ký hiệu mũ (JavaScript)|Ý nghĩa toán học|Giá trị|
+|-----------------------|----------------|-------|
+|1e3|1×103|1000|
+|2.5e-2|2.5×10−2|0.025|
+|5.67e5|5.67×105|567000|
 
 Ví dụ:
 
+```js
 let number1 = 1e3;    // 1000
 
 let number2 = 2.5e-2; // 0.025
@@ -134,8 +95,9 @@ console.log(number1);
 console.log(number2);
 
 console.log(number3);
+```
 
-Các phương thức của Number
+**Các phương thức của Number**
 
 Kiểu dữ liệu Number cũng có một số phương thức tích hợp sẵn. Tuy nhiên, bạn nên cẩn thận khi sử dụng ký hiệu dấu chấm (.) với các số nguyên là giá trị thuần (literals) vì JavaScript sẽ nhầm lẫn dấu chấm đó với dấu chấm trong số thập phân. Để xử lý vấn đề này, JavaScript có một số cách, chúng ta sẽ minh họa bằng phương thức toExponential(); phương thức này trả về số dưới dạng chuỗi dưới dạng ký hiệu mũ.
 
@@ -191,7 +153,7 @@ PI.toFixed(3); //chỉ cần sử dụng một dấu chấm, khi sử dụng ph�
 
 << "2.5"
 
-Một số phép toán số học
+**Một số phép toán số học**
 
 \- Phép cộng (addition)
 
@@ -229,7 +191,7 @@ Một số phép toán số học
 
 << 5
 
-Thay đổi giá trị của biến
+**Thay đổi giá trị của biến**
 
 Nếu một biến đã được gán giá trị, bạn có thể thay đổi giá trị của nó bằng các phép toán sau:
 
@@ -267,7 +229,7 @@ points %= 7; //chia 7 lấy phần dư
 
 << 3
 
-Tăng biến lên 1 đơn vị
+**Tăng biến lên 1 đơn vị**
 
 Nếu bạn chỉ muốn tăng giá trị của biến lên 1 đơn vị, bạn có thể sử dụng toán tử ++. Toán tử này có thể đặt trước hoặc sau biến.
 
@@ -301,7 +263,7 @@ points
 
 Toán tử -- cũng làm việc tương tự toán tử ++.
 
-Vô cực
+**Vô cực**
 
 Vô cực (infinity) là một “giá trị lỗi đặc biệt” trong JavaScript được dùng để đại diện cho bất kỳ số nào quá lớn so với khả năng xử lý của ngôn ngữ này. Số lớn nhất mà JavaScript có thể xử lý là 1.7976931348623157e+308.
 
@@ -339,7 +301,7 @@ Số nhỏ nhất mà JavaScript có thể xử lý là 5e^-324 (tương đươn
 
 << 0
 
-NaN
+**NaN**
 
 NaN là một giá trị lỗi, viết tắt của "Not a Number" (không phải là một Số). Nó được sử dụng khi một phép toán được thực hiện nhưng kết quả không phải là một giá trị số, chẳng hạn như khi bạn cố gắng nhân một chuỗi với một số.
 
@@ -353,7 +315,7 @@ typeof NaN
 
 'number'
 
-Kiểm tra một giá trị có phải là một số hay không?
+**Kiểm tra một giá trị có phải là một số hay không?**
 
 Bạn có thể kiểm tra xem một giá trị có phải là một số có thể sử dụng được hay không bằng cách dùng phương thức Number.isFinite(). Phương thức này sẽ trả về true nếu giá trị đó là một số không phải là Infinity, -Infinity hoặc NaN.
 
@@ -373,10 +335,9 @@ Number.isFinite(42);
 
 << true
 
-4.2 Bài tập và thực hành
-------------------------
+### 4.2 Bài tập và thực hành
 
-Bài tập 4a. Tạo ra một máy tính cầm tay (calculator) với các yêu cầu như sau:
+**Bài tập 4a.** Tạo ra một máy tính cầm tay (calculator) với các yêu cầu như sau:
 
 \- Tạo thư mục dự án (ví dụ: calculator)
 
@@ -410,6 +371,7 @@ Mã nguồn tham khảo (chatbot làm)
 
 \[calculator.html\]
 
+```html
 <!DOCTYPE html\>
 
 <html lang\="vi"\>
@@ -761,9 +723,11 @@ Mã nguồn tham khảo (chatbot làm)
             }
 
         }
+```
 
 \[script.js\]
 
+```js
  // Lấy các phần tử DOM cần thiết
 
         const display = document.getElementById('display');
@@ -867,7 +831,6 @@ Mã nguồn tham khảo (chatbot làm)
                 return;
 
             }
-
   
 
             // Chỉ cho phép thêm dấu thập phân nếu chưa có
@@ -1083,23 +1046,23 @@ Mã nguồn tham khảo (chatbot làm)
         // Khởi tạo hiển thị
 
         updateDisplay();
+```
 
-4.3 Câu hỏi ôn tập
-------------------
+### 4.3 Câu hỏi ôn tập
 
-Câu 1. Đoạn mã này xuất ra cái gì: const float = 3.14; typeof float;
+**Câu 1.** Đoạn mã này xuất ra cái gì: const float = 3.14; typeof float;
 
 A. float
 
 B. double
 
-C. number
+**C. number**
 
 D. PI
 
-Câu 2. Đoạn mã này xuất ra cái gì: let number1 = 1e3; console.log(number1);
+**Câu 2.** Đoạn mã này xuất ra cái gì: let number1 = 1e3; console.log(number1);
 
-A. 1000
+**A. 1000**
 
 B. 1e3
 
@@ -1107,19 +1070,19 @@ C. 0.001
 
 D. 0.003
 
-Câu 3. Đoạn mã này xuất ra cái gì: const PI = 3.1415926; console.log(PI.toFixed(4));
+**Câu 3.** Đoạn mã này xuất ra cái gì: const PI = 3.1415926; console.log(PI.toFixed(4));
 
 A. 3.142
 
-B. 3.1416
+**B. 3.1416**
 
 C. 3.0000
 
 D. 3141
 
-Câu 4. Đoạn mã này xuất ra cái gì: const PI = 3.1415926; console.log(PI.toPrecision(3));
+**Câu 4.** Đoạn mã này xuất ra cái gì: const PI = 3.1415926; console.log(PI.toPrecision(3));
 
-A. 3.14
+**A. 3.14**
 
 B. 3.142
 
@@ -1127,7 +1090,7 @@ C. 3.141
 
 D. 3.000
 
-Câu 5. Đoạn mã này xuất ra cái gì? typeof NaN;
+**Câu 5.** Đoạn mã này xuất ra cái gì? typeof NaN;
 
 A. NaN
 
@@ -1135,8 +1098,4 @@ B. string
 
 C. error
 
-D. number
-
-\-----
-
-Bài sau:
+**D. number**
