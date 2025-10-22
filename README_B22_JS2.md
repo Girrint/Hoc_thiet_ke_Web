@@ -314,63 +314,33 @@ Khác so với var, việc khai báo biến bằng let và const sẽ không cho
 
 ### 2.5 Bài tập và thực hành
 
-Bài tập 2a. Viết lại các đoạn mã trong phần lý thuyết.
+**Bài tập 2a.** Viết lại các đoạn mã trong phần lý thuyết.
 
-Bài tập 2b. Sử dụng toán tử typeof, điền kết quả vào bảng sau, giải thích kết quả:
+**Bài tập 2b.** Sử dụng toán tử typeof, điền kết quả vào bảng sau, giải thích kết quả:
 
-Dữ liệu
+|Dữ liệu|Kiểu dữ liệu|
+|-------|------------|
+|null| |
+|undefined| |
+|0| |
+|True (lưu ý: chữ t viết hoa)| |
+|true (lưu ý : chữ t viết thường)| |
+|\'True\'| |
+|1e5| |
 
-Kiểu dữ liệu
+*Gợi ý:*
 
-null
+**Bài tập 2.**
 
-undefined
-
-0
-
-True (lưu ý: chữ t viết hoa)
-
-true (lưu ý : chữ t viết thường)
-
-'True'
-
-1e5
-
-Gợi ý:
-
-Bài tập 2.
-
-Dữ liệu
-
-Kiểu dữ liệu
-
-null
-
-Object
-
-undefined
-
-Undefined
-
-0
-
-Number
-
-True (lưu ý: chữ t viết hoa)
-
-Undefined
-
-true (lưu ý : chữ t viết thường)
-
-Boolean
-
-'True'
-
-String
-
-1e5
-
-Number
+|Dữ liệu|Kiểu dữ liệu|
+|-------|------------|
+|null|Object|
+|undefined|Undefined|
+|0|Numbe|
+|True (lưu ý: chữ t viết hoa)|Undefined|
+|true (lưu ý : chữ t viết thường)|Boolean|
+|\'True\'|String|
+|1e5|Number|
 
 ### 2.6 Câu hỏi ôn tập
 
